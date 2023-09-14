@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/formulario.css">
+    <link rel="stylesheet" href="https://www.dafont.com/es/bright-rose.font">
+    <!-- Enlace a otra fuente (debe ser un archivo CSS válido) -->
+    <title>Reseñas</title>
+</head>
+<body>
+    <h1>Reseñas</h1>
+    <div class="formulario-container">
+        <h1>Reseña</h1>
+        <form id="mi-formulario">
+            <div class="campo">
+                 <!-- label crea una etiqueta para el input "es buena practica" -->
+                <label for="nombre">Nombre</label>
+                <!-- creamos un input con su respectico id el atributo name 
+                se utiliza en varias etiquetas HTML para proporcionar un nombre o identificador a elementos específicos -->
+                <input type="text" id="nombre" name="nombre" required>
+        
+            </div>
+            <div class="campo">
+                <label for="Apellido">Apellido</label>
+                <input type="text" id="Apellido" name="Apellido" required>
+            </div>
+            <div class="campo">
+            <label for="Reseña">Reseña</label>
+            <!-- textarea permite ingresar texto segido
+            cols determina el ancho del texto y rows la cantidad de columnas -->
+            <textarea name="Reseña" id="Reseña" cols="30" rows="10"></textarea>
+            </div>
+            <div class="boton-container">
+                <button type="submit">Enviar</button>
+            </div>
+        
+        </form>
+    </div>
+
+
+
+</body>
+</html>

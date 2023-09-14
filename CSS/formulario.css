@@ -1,0 +1,49 @@
+
+.formulario-container {
+    width: 50%; /* Establece el ancho del contenedor del formulario al 50% del ancho disponible */
+    margin: 0 auto; /* Centra el contenedor horizontalmente en la página */
+    padding: 20px; /* Agrega un espacio de relleno interior de 20px */
+    background-color: #0000006e; /* Establece el fondo con un color negro semi-transparente */
+    border-radius: 5px; /* Aplica esquinas redondeadas con un radio de 5px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra al contenedor */
+}
+
+/* para el encabezado del formulario */
+.formulario-container h1 {
+    text-align: center; /* Centra el título del formulario horizontalmente */
+}
+
+/* para los campos de entrada y etiquetas */
+.campo {
+    margin: 10px 0; /* Agrega un margen superior e inferior de 10px a cada campo */
+}
+
+label {
+    display: block; /* Cambia label a  un bloque para que esté en una línea separada */
+}
+
+/*para campos de texto y áreas de texto */
+input[type="text"],
+textarea {
+    width: 90%; /* Establece el ancho de los campos de texto al 90% del contenedor */
+    padding: 10px; /* Agrega un espacio de relleno interior de 10px a los campos */
+    border: 1px solid #ccc; /* Agrega un borde de 1px sólido con color gris claro */
+    border-radius: 5px; /*  esquinas redondeadas con un radio de 5px */
+}
+
+/*  para el botón de envío */
+button {
+    background-color: #007BFF; /* Establece el color de fondo del botón */
+    color: #fff; /* Establece el color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    padding: 10px 20px; /* Agrega un espacio de relleno interior */
+    border-radius: 5px; /* Aplica esquinas redondeadas con un radio de 5px */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    transition: transform 0.2s;
+}
+
+/* para el botón cuando se pasa el cursor sobre él */
+button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo cuando se pasa el cursor */
+    transform: scale(0.9);
+}
